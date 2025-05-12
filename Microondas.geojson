@@ -1,0 +1,80 @@
+{
+  "type": "FeatureCollection",
+  "features": [ 
+    {
+        "type":"Feature", 
+        "geometry":{
+
+            "type": "Point",
+            "coordinates":[4.63787063433969, -74.0694840425215] 
+                        
+        },
+
+        "properties":{
+            "Precio": 219.900,
+            "Alto": 25.8,
+            "Ancho": 33.4,
+            "Profundidad":44,
+            "Capacidad": 20,
+            "Modelo": "RMM-20",
+            "Potencia": 700 ,
+            "Voltaje": 110
+            
+            
+        }
+
+    },
+
+    {
+        "type": "Feature",
+        "geometry":{
+
+            "type": "Point",
+            "coordinates":[4.610788936526976, -74.09440325622396]
+        },
+        "properties":{
+            "Marca": "Acros",
+            "Precio": 259.900,
+            "Alto": 26.6,
+            "Ancho": 45.2,
+            "Profundidad":34,
+            "Capacidad": 10,
+            "Modelo": "RMM-20",
+            "Potencia": 700 ,
+            "Voltaje": 110
+
+        }
+        },
+
+    
+    {
+        "type": "Feature",
+        "geometry":{
+
+            "type": "Point",
+            "coordinates":[4.599045799482032, -74.07333529062764]
+        },
+        "properties":{
+            "Marca": "ElectroLux",
+            "Precio": 259.900,
+            "Alto": 30,
+            "Ancho": 50,
+            "Profundidad":34,
+            "Capacidad": 17,
+            "Modelo": "RMM-20",
+            "Potencia": 700 ,
+            "Voltaje": 120
+
+        }
+        }
+    ]
+    }
+
+    
+    
+
+
+
+
+
+

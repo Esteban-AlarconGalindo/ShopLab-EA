@@ -15,3 +15,39 @@ var circle = L.circle([4.628562162863909, -74.0647138786652
     fillOpacity: 0.5,
     radius: 500
 }).addTo(map);
+
+//Abrir el archivo GeoJSON
+//Javascript se ejecuta de tal manera que si una 
+//linea de código se demora, se pasa a la siguiente sin esperar.
+//Esto puede generar problemas cuando se requiere secuencialidad
+
+
+async function cargarPuntos(){
+
+    var miArchivo= await fetch("Microondas.geojson");
+
+
+// Convertir el contenido a json: objeto js
+
+    var datos =await miArchivo.json();
+
+    let listaFeatures=datos["features"];
+
+    console.log(datos);
+
+    for(let i=0; i<5; i++){
+
+        let misCoordenadas =listaFeatures[i]["geometry"]["coordinates"];
+        var miMarcador =L.marker(misCoordenadas);
+        miMarcador.addTo(map);
+
+    console.log(datos["features"][i]);
+    }
+    
+    
+
+
+
+};
+
+cargarPuntos();

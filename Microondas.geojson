@@ -66,7 +66,51 @@
             "Voltaje": 120
 
         }
+        },
+
+        {
+        "type": "Feature",
+        "geometry":{
+
+            "type": "Point",
+            "coordinates":[4.6120396630009886, -74.07396765867402]
+        },
+        "properties":{
+            "Marca": "ElectroLux",
+            "Precio": 279.900,
+            "Alto": 29.4,
+            "Ancho": 49.6,
+            "Profundidad":38.9,
+            "Capacidad": 17,
+            "Modelo": "EMDO17S3GSLUW",
+            "Potencia": 700 ,
+            "Voltaje": 110
+
         }
+        },
+
+            {
+        "type": "Feature",
+        "geometry":{
+
+            "type": "Point",
+            "coordinates":[4.612724084810382, -74.07534094965571]
+        },
+        "properties":{
+            "Marca": "LG",
+            "Precio": 475.000,
+            "Alto": 28.9,
+            "Ancho": 50.8,
+            "Profundidad":39.9,
+            "Capacidad": 30,
+            "Modelo": "NeoChef Slim",
+            "Potencia": 700 ,
+            "Voltaje": 110
+
+        }
+        }
+        
+
     ]
     }
 
